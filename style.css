@@ -1,0 +1,172 @@
+.center {
+    background-color: rgb(221,234,225);
+    display:flex;
+    justify-content:center;
+}
+.container {
+    width: 550px;
+    background-color: rgb(31,41,55);
+    height: 400px;
+    border: 5px solid white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.t1 {
+    font-family: 'Karla', sans-serif;
+    color: white;
+    font-size: 40px;
+    margin-left: 52px;
+    margin-top:115px;
+    margin-bottom:0px;
+}
+.t2 {
+    font-family: 'Karla', sans-serif;
+    color: #10B981;
+    font-size:40px;
+    margin-left:52px;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+.t3 {
+    font-family: 'Inter', sans-serif;
+    color: #D5D4D8;
+    font-size:20px;
+    margin-left:52px;
+    margin-bottom:52px;
+}
+.genButton {
+    width: 191px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 52px;
+    background: #10B981;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    border:unset;
+    color:white;
+}
+.genButton:active {
+    background-color: #0c8a60;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: translateY(2px);
+}
+.optionsButton {
+    width: 191px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 52px;
+    margin-right: 52px;
+    background: #273549;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    border: unset;
+    color: #55F991;
+}
+.optionsButton:active {
+    background-color: #425878;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: translateY(2px);
+}
+.separator1 {
+    width: 446px;
+    height: 2px;
+    background-color: #2F3E53;
+    margin-left:52px;
+    margin-right:52px;
+    margin-top:35px;
+    margin-bottom:35px;
+    margin:35px 52px 35px 52px;
+    display:none;
+}
+
+.options {
+    margin-top: 15px;
+    display: none;
+    justify-content: center;
+}
+
+.suboptions {
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+label {
+    font-family: 'Inter', sans-serif;
+    color: #D5D4D8;
+    font-size: 16px;
+    margin-bottom: 52px;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    color: #D5D4D8;
+    font-size: 16px;
+}
+
+.separator2 {
+    width: 446px;
+    height: 2px;
+    background-color: #2F3E53;
+    margin-left: 52px;
+    margin-right: 52px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin: 35px 52px 35px 52px;
+    display: none;
+}
+.passButtonLeft {
+    width: 211px;
+    height: 39px;
+    background: #273549;
+    border-radius: 6px;
+    border: unset;
+    margin-left: 52px;
+    margin-right: 12px;
+    margin-bottom: 24px;
+    font-family: "Inter";
+    font-size: 16px;
+    color: #55F991;
+    display:none;
+}
+.passButtonRight {
+    width: 207px;
+    height: 39px;
+    background: #273549;
+    border-radius: 6px;
+    border: unset;
+    margin-left: 12px;
+    margin-right: 52px;
+    margin-bottom: 24px;
+    font-family: "Inter";
+    font-size: 16px;
+    color: #55F991;
+    display:none;
+}
+.passButtonLeft:active {
+    background-color: #425878;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: translateY(2px);
+}
+.passButtonRight:active {
+    background-color: #425878;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: translateY(2px);
+}
+
+
+

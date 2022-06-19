@@ -1,0 +1,43 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+<html>
+<head>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body class="center">
+    <div class="container">
+        <p class="t1">Generate a</p>
+        <p class="t2">random password</p>
+        <p class="t3">Never use an insecure password again.</p>
+        <div style="display:flex;justify-content:center;">
+            <button class="genButton" onclick="generatePasswords()">Generate passwords</button>
+            <button class="optionsButton" onclick="showOptions()">Advanced options</button>
+        </div>
+        <div class="separator1"></div>
+        <div class="options">
+            <div class="suboptions">
+                <input type="checkbox" id="allowNumbers" name="allowNumbers" checked>
+                <label for="allowNumbers">Include numbers</label><br>
+                <input type="checkbox" id="allowSymbols" name="allowSybols" checked>
+                <label for="allowSymbols">Include symbols</label><br>
+            </div>
+            <div class="suboptions" style="display:flex; justify-content:center;">
+                <input type="range" min="4" max="16" value="16" class="slider"><br>
+                <p class="sliderValue">16</p>
+            </div>
+        </div>
+
+        <div class="separator2"></div>
+
+        <button class="passButtonLeft"  onclick="copyPassword(0)">awedfarg</button>
+        <button class="passButtonRight" onclick="copyPassword(1)">4 53g2g24rg</button>
+        <button class="passButtonLeft"  onclick="copyPassword(2)">w4rg5rfg4w</button>
+        <button class="passButtonRight" onclick="copyPassword(3)">w4rgtr34w5r</button>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
